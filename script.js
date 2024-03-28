@@ -24,7 +24,7 @@ function receberQuantidadePessoas(evento) {
         paragrafoErro.style.display = "none"
         divErro.setAttribute("id", "")
         
-        pessoas = Number(evento.targer.value)
+        pessoas = Number(evento.target.value)
     } 
 
     calcular()
